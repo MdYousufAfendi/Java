@@ -1,0 +1,16 @@
+﻿<Window x:Class="Library.Firstpage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library"
+        mc:Ignorable="d"
+        Title="Firstpage" Height="450" Width="800">
+    <Grid Background="DarkGray">
+        <Label Content="Welcome to library " FontSize="30" FontFamily="Algerian" Foreground="Blue" HorizontalAlignment="Left" Margin="222,24,0,0" VerticalAlignment="Top" Width="327"/>
+        <Button Content="Administrator" FontSize="30" FontFamily="Berlin Sans FB Demi" Foreground="RoyalBlue" HorizontalAlignment="Left" Margin="273,118,0,0" VerticalAlignment="Top" Width="197" Click="Button_Click_1"/>
+        <Button Content="User" FontSize="30" FontFamily="Berlin Sans FB Demi" Foreground="RoyalBlue" HorizontalAlignment="Left" Margin="317,189,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Created By Sagor, Sujoy and Yousuf" FontSize="20" Foreground="MidnightBlue" HorizontalAlignment="Left" Margin="439,357,0,0" VerticalAlignment="Top" Width="331" Height="41"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="Library.Logout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library"
+        mc:Ignorable="d"
+        Title="Logout" Height="450" Width="800">
+    <Grid Background="DarkGray">
+        <TextBox HorizontalAlignment="Left" Height="92" Margin="101,33,0,0" TextWrapping="Wrap" Text="Thanks For browsing our virtual library" FontSize="40" Foreground="Blue" FontFamily="Tw Cen MT Condensed Extra Bold" VerticalAlignment="Top" Width="570"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="185,249,0,0" TextWrapping="Wrap" Text="Logout Successful" FontSize="40" Foreground="IndianRed" FontFamily="Times New Roman" VerticalAlignment="Top" Width="310"/>
+
+    </Grid>
+</Window>

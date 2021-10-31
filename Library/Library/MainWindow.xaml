@@ -1,0 +1,21 @@
+﻿<Window x:Class="Library.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="DarkGray">
+        <Label Content="Choose a button" FontSize="30" Foreground="Yellow" FontFamily="Script MT" HorizontalAlignment="Left" VerticalAlignment="Top" Width="208" Height="44"/>
+        <Button Content="Buy" FontSize="30" Foreground="Indigo" HorizontalAlignment="Left" Margin="50,85,0,0" VerticalAlignment="Top" Width="134" Height="49" Click="Button_Click_1"/>
+        <Button Content="Donate" FontSize="30" Foreground="Indigo" HorizontalAlignment="Left" Margin="50,176,0,0" VerticalAlignment="Top" Width="134" Height="47" Click="Button_Click_3"/>
+        <Button Content="Borrow" FontSize="30" Foreground="Indigo" HorizontalAlignment="Left" Margin="50,252,0,0" VerticalAlignment="Top" Width="134" Height="51" Click="Button_Click_2"/>
+        <Button Content="Buy History" FontSize="30" Foreground="Indigo" HorizontalAlignment="Left" Margin="390,85,0,0" VerticalAlignment="Top" Width="209" Height="49"/>
+        <Button Content="Borrow History" FontSize="30" Foreground="Indigo" HorizontalAlignment="Left" Margin="390,176,0,0" VerticalAlignment="Top" Width="209" Height="47"/>
+        <Button Content="Donate History" FontSize="30" Foreground="Indigo"  HorizontalAlignment="Left" Margin="390,267,0,0" VerticalAlignment="Top" Width="209"/>
+        <Button Content="Log out" FontSize="30" Foreground="Red" FontFamily="Forte"  HorizontalAlignment="Left" Margin="231,330,0,0" VerticalAlignment="Top" Width="192" Height="55" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>
